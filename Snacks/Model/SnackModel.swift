@@ -56,15 +56,15 @@ class SnackModel: BaseModel {
         return hasLattuce && !hasBacon
     }
     
-    func checkTooManyMeatPromotion(ingredients: [IngredientsModel]) -> Double{
+    private func checkTooManyMeatPromotion(ingredients: [IngredientsModel]) -> Double{
         return self.getSaveFromTooManyPromotion(withItem: Constants.Ingredients.meatIngredientName, fromIngredientes: ingredients)
     }
     
-    func getTooManyCheesePromotion(ingredients: [IngredientsModel]) -> Double{
+    private func getTooManyCheesePromotion(ingredients: [IngredientsModel]) -> Double{
         return self.getSaveFromTooManyPromotion(withItem: Constants.Ingredients.cheeseIngredientName, fromIngredientes: ingredients)
     }
     
-    func getSaveFromTooManyPromotion(withItem itemName: String, fromIngredientes ingredients: [IngredientsModel]) -> Double {
+    private func getSaveFromTooManyPromotion(withItem itemName: String, fromIngredientes ingredients: [IngredientsModel]) -> Double {
         var qtItem = 0.0
         var itemPrice = 0.0
         
