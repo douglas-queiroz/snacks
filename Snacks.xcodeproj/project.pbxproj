@@ -17,6 +17,7 @@
 		CBC9B1371F1D2CBB00C4C82B /* SnackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B1361F1D2CBB00C4C82B /* SnackModel.swift */; };
 		CBC9B1391F1D2DDA00C4C82B /* IngredientsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B1381F1D2DDA00C4C82B /* IngredientsModel.swift */; };
 		CBC9B13B1F1D2F7900C4C82B /* SnackModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B13A1F1D2F7900C4C82B /* SnackModelTests.swift */; };
+		CBC9B13F1F1D628700C4C82B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B13E1F1D628700C4C82B /* Constants.swift */; };
 		F92A59BE601B79E9B0F57CDF /* Pods_SnacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A3EF19D1AD67B40B98C26F /* Pods_SnacksTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		CBC9B1361F1D2CBB00C4C82B /* SnackModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnackModel.swift; path = Model/SnackModel.swift; sourceTree = "<group>"; };
 		CBC9B1381F1D2DDA00C4C82B /* IngredientsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IngredientsModel.swift; path = Model/IngredientsModel.swift; sourceTree = "<group>"; };
 		CBC9B13A1F1D2F7900C4C82B /* SnackModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnackModelTests.swift; path = Model/SnackModelTests.swift; sourceTree = "<group>"; };
+		CBC9B13E1F1D628700C4C82B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Helper/Constants.swift; sourceTree = "<group>"; };
 		CD965D6E5182557BC464BED4 /* Pods-Snacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacks.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snacks/Pods-Snacks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 		CBC9B1071F1D26B800C4C82B /* Snacks */ = {
 			isa = PBXGroup;
 			children = (
+				CBC9B13D1F1D626D00C4C82B /* Helper */,
 				CBC9B1321F1D2C8500C4C82B /* Model */,
 				CBC9B1081F1D26B800C4C82B /* AppDelegate.swift */,
 				CBC9B10A1F1D26B800C4C82B /* ViewController.swift */,
@@ -151,6 +154,14 @@
 				CBC9B13A1F1D2F7900C4C82B /* SnackModelTests.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		CBC9B13D1F1D626D00C4C82B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CBC9B13E1F1D628700C4C82B /* Constants.swift */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +371,7 @@
 				CBC9B1371F1D2CBB00C4C82B /* SnackModel.swift in Sources */,
 				CBC9B1391F1D2DDA00C4C82B /* IngredientsModel.swift in Sources */,
 				CBC9B1091F1D26B800C4C82B /* AppDelegate.swift in Sources */,
+				CBC9B13F1F1D628700C4C82B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
