@@ -1,3 +1,37 @@
-PODFILE CHECKSUM: 21c276e1561505c9c6a587491ba1eb6054d75ae7
+PODS:
+  - Alamofire (4.4.0)
+  - ModelMapper (6.0.0)
+  - Moya (8.0.4):
+    - Moya/Core (= 8.0.4)
+  - Moya-ModelMapper (4.0.0):
+    - Moya-ModelMapper/Core (= 4.0.0)
+  - Moya-ModelMapper/Core (4.0.0):
+    - ModelMapper
+    - Moya (~> 8.0.0)
+  - Moya/Core (8.0.4):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - PKHUD (4.2.2)
+  - Result (3.2.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - Moya (~> 8.0.0)
+  - Moya-ModelMapper (~> 4.0.0)
+  - PKHUD
+  - SDWebImage (~> 3.8)
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  ModelMapper: 3596a82f26c43491f6a8d3a00bcdba6ba0e62a93
+  Moya: a08bc060c7a44eee27447b239ed33a189b641e2b
+  Moya-ModelMapper: ba729497d947b536837cf377b81c150512245d85
+  PKHUD: 9a3599e04d57676ec14746c40e423a52fb6588c0
+  Result: 4edd39003fdccf281d418ee1b006571f70123250
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: 783d51040ab6c933e5716e0532fbbd5c8ec037e9
 
 COCOAPODS: 1.2.1

@@ -6,11 +6,15 @@ target 'Snacks' do
   use_frameworks!
   
   # Pods for Snacks
-  
+  pod 'Moya', '~> 8.0.0'
+  pod 'Moya-ModelMapper', '~> 4.0.0'
+  pod 'PKHUD'
+  pod 'SDWebImage', '~>3.8'
 
   target 'SnacksTests' do
     inherit! :search_paths
     # Pods for testing
   end
+
 
 end

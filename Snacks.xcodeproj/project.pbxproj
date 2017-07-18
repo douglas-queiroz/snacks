@@ -18,6 +18,18 @@
 		CBC9B1391F1D2DDA00C4C82B /* IngredientsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B1381F1D2DDA00C4C82B /* IngredientsModel.swift */; };
 		CBC9B13B1F1D2F7900C4C82B /* SnackModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B13A1F1D2F7900C4C82B /* SnackModelTests.swift */; };
 		CBC9B13F1F1D628700C4C82B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B13E1F1D628700C4C82B /* Constants.swift */; };
+		CBC9B1451F1D980300C4C82B /* Gettable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B1441F1D980300C4C82B /* Gettable.swift */; };
+		CBC9B1481F1D989000C4C82B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B1471F1D989000C4C82B /* Result.swift */; };
+		CBC9B14A1F1D98AF00C4C82B /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B1491F1D98AF00C4C82B /* Errors.swift */; };
+		CBC9B14C1F1D9CE100C4C82B /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B14B1F1D9CE100C4C82B /* BaseAPI.swift */; };
+		CBC9B1501F1DA14A00C4C82B /* snacks.json in Resources */ = {isa = PBXBuildFile; fileRef = CBC9B14F1F1DA14A00C4C82B /* snacks.json */; };
+		CBC9B1521F1DA3E100C4C82B /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B1511F1DA3E100C4C82B /* BaseService.swift */; };
+		CBC9B1541F1DA43800C4C82B /* SnackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B1531F1DA43800C4C82B /* SnackService.swift */; };
+		CBC9B1561F1DA6D800C4C82B /* Snack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B1551F1DA6D800C4C82B /* Snack.swift */; };
+		CBC9B1591F1DAAA600C4C82B /* SnackPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B1581F1DAAA600C4C82B /* SnackPresenter.swift */; };
+		CBC9B15C1F1DAB2E00C4C82B /* SnacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B15B1F1DAB2E00C4C82B /* SnacksView.swift */; };
+		CBC9B15E1F1DAD1A00C4C82B /* SnacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B15D1F1DAD1A00C4C82B /* SnacksViewController.swift */; };
+		CBC9B1601F1DB49200C4C82B /* SnackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9B15F1F1DB49200C4C82B /* SnackCell.swift */; };
 		F92A59BE601B79E9B0F57CDF /* Pods_SnacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A3EF19D1AD67B40B98C26F /* Pods_SnacksTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +63,18 @@
 		CBC9B1381F1D2DDA00C4C82B /* IngredientsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IngredientsModel.swift; path = Model/IngredientsModel.swift; sourceTree = "<group>"; };
 		CBC9B13A1F1D2F7900C4C82B /* SnackModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnackModelTests.swift; path = Model/SnackModelTests.swift; sourceTree = "<group>"; };
 		CBC9B13E1F1D628700C4C82B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Helper/Constants.swift; sourceTree = "<group>"; };
+		CBC9B1441F1D980300C4C82B /* Gettable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gettable.swift; path = Service/Protocol/Gettable.swift; sourceTree = "<group>"; };
+		CBC9B1471F1D989000C4C82B /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Service/Util/Result.swift; sourceTree = "<group>"; };
+		CBC9B1491F1D98AF00C4C82B /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Service/Util/Errors.swift; sourceTree = "<group>"; };
+		CBC9B14B1F1D9CE100C4C82B /* BaseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseAPI.swift; path = Service/BaseAPI.swift; sourceTree = "<group>"; };
+		CBC9B14F1F1DA14A00C4C82B /* snacks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = snacks.json; path = SupportFiles/Stub/snacks.json; sourceTree = "<group>"; };
+		CBC9B1511F1DA3E100C4C82B /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseService.swift; path = Service/Protocol/BaseService.swift; sourceTree = "<group>"; };
+		CBC9B1531F1DA43800C4C82B /* SnackService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnackService.swift; path = Service/SnackService.swift; sourceTree = "<group>"; };
+		CBC9B1551F1DA6D800C4C82B /* Snack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Snack.swift; path = Model/Snack.swift; sourceTree = "<group>"; };
+		CBC9B1581F1DAAA600C4C82B /* SnackPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnackPresenter.swift; path = Presenter/SnackPresenter.swift; sourceTree = "<group>"; };
+		CBC9B15B1F1DAB2E00C4C82B /* SnacksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnacksView.swift; path = View/SnacksView.swift; sourceTree = "<group>"; };
+		CBC9B15D1F1DAD1A00C4C82B /* SnacksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnacksViewController.swift; path = View/SnacksViewController.swift; sourceTree = "<group>"; };
+		CBC9B15F1F1DB49200C4C82B /* SnackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnackCell.swift; path = View/Cell/SnackCell.swift; sourceTree = "<group>"; };
 		CD965D6E5182557BC464BED4 /* Pods-Snacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacks.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snacks/Pods-Snacks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,8 +141,12 @@
 		CBC9B1071F1D26B800C4C82B /* Snacks */ = {
 			isa = PBXGroup;
 			children = (
-				CBC9B13D1F1D626D00C4C82B /* Helper */,
+				CBC9B15A1F1DAB0300C4C82B /* View */,
 				CBC9B1321F1D2C8500C4C82B /* Model */,
+				CBC9B14D1F1DA10900C4C82B /* SupportFiles */,
+				CBC9B13D1F1D626D00C4C82B /* Helper */,
+				CBC9B1401F1D975100C4C82B /* Service */,
+				CBC9B1571F1DAA6F00C4C82B /* Presenter */,
 				CBC9B1081F1D26B800C4C82B /* AppDelegate.swift */,
 				CBC9B10A1F1D26B800C4C82B /* ViewController.swift */,
 				CBC9B10C1F1D26B800C4C82B /* Main.storyboard */,
@@ -144,6 +172,7 @@
 				CBC9B1331F1D2CA100C4C82B /* BaseModel.swift */,
 				CBC9B1361F1D2CBB00C4C82B /* SnackModel.swift */,
 				CBC9B1381F1D2DDA00C4C82B /* IngredientsModel.swift */,
+				CBC9B1551F1DA6D800C4C82B /* Snack.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -162,6 +191,69 @@
 				CBC9B13E1F1D628700C4C82B /* Constants.swift */,
 			);
 			name = Helper;
+			sourceTree = "<group>";
+		};
+		CBC9B1401F1D975100C4C82B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CBC9B1461F1D987600C4C82B /* Util */,
+				CBC9B1431F1D97D200C4C82B /* Protocol */,
+				CBC9B14B1F1D9CE100C4C82B /* BaseAPI.swift */,
+				CBC9B1531F1DA43800C4C82B /* SnackService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		CBC9B1431F1D97D200C4C82B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CBC9B1441F1D980300C4C82B /* Gettable.swift */,
+				CBC9B1511F1DA3E100C4C82B /* BaseService.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		CBC9B1461F1D987600C4C82B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CBC9B1471F1D989000C4C82B /* Result.swift */,
+				CBC9B1491F1D98AF00C4C82B /* Errors.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		CBC9B14D1F1DA10900C4C82B /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CBC9B14E1F1DA11D00C4C82B /* Stub */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		CBC9B14E1F1DA11D00C4C82B /* Stub */ = {
+			isa = PBXGroup;
+			children = (
+				CBC9B14F1F1DA14A00C4C82B /* snacks.json */,
+			);
+			name = Stub;
+			sourceTree = "<group>";
+		};
+		CBC9B1571F1DAA6F00C4C82B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CBC9B1581F1DAAA600C4C82B /* SnackPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		CBC9B15A1F1DAB0300C4C82B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBC9B15B1F1DAB2E00C4C82B /* SnacksView.swift */,
+				CBC9B15D1F1DAD1A00C4C82B /* SnacksViewController.swift */,
+				CBC9B15F1F1DB49200C4C82B /* SnackCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +347,7 @@
 			files = (
 				CBC9B1131F1D26B800C4C82B /* LaunchScreen.storyboard in Resources */,
 				CBC9B1101F1D26B800C4C82B /* Assets.xcassets in Resources */,
+				CBC9B1501F1DA14A00C4C82B /* snacks.json in Resources */,
 				CBC9B10E1F1D26B800C4C82B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,9 +462,20 @@
 				CBC9B1341F1D2CA100C4C82B /* BaseModel.swift in Sources */,
 				CBC9B10B1F1D26B800C4C82B /* ViewController.swift in Sources */,
 				CBC9B1371F1D2CBB00C4C82B /* SnackModel.swift in Sources */,
+				CBC9B1561F1DA6D800C4C82B /* Snack.swift in Sources */,
 				CBC9B1391F1D2DDA00C4C82B /* IngredientsModel.swift in Sources */,
+				CBC9B1591F1DAAA600C4C82B /* SnackPresenter.swift in Sources */,
+				CBC9B1451F1D980300C4C82B /* Gettable.swift in Sources */,
+				CBC9B15E1F1DAD1A00C4C82B /* SnacksViewController.swift in Sources */,
 				CBC9B1091F1D26B800C4C82B /* AppDelegate.swift in Sources */,
+				CBC9B15C1F1DAB2E00C4C82B /* SnacksView.swift in Sources */,
+				CBC9B1481F1D989000C4C82B /* Result.swift in Sources */,
+				CBC9B14A1F1D98AF00C4C82B /* Errors.swift in Sources */,
 				CBC9B13F1F1D628700C4C82B /* Constants.swift in Sources */,
+				CBC9B14C1F1D9CE100C4C82B /* BaseAPI.swift in Sources */,
+				CBC9B1541F1DA43800C4C82B /* SnackService.swift in Sources */,
+				CBC9B1601F1DB49200C4C82B /* SnackCell.swift in Sources */,
+				CBC9B1521F1DA3E100C4C82B /* BaseService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
